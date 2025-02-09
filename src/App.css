@@ -1,45 +1,45 @@
 .feedback-section {
-  position: relative;  /* Ensure it's not positioned absolutely */
-  z-index: 10;  /* Higher than the MCQ and Reading sections */
-  background: white;  /* Prevent text from blending into the background */
+  position: relative;
+  z-index: 10;
+  background: white; 
   padding: 2rem;
-  margin: 1px auto;  /* Center the section while keeping top margin */
+  margin: 1px auto;  
   border-radius: 8px;
   width: 93%;
-  height: 81vh;  /* 85% of the viewport height */
+  height: 81vh; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: auto;  /* Ensures content is scrollable if it overflows */
+  overflow: auto; 
 }
 
 
 
   .content-wrapper {
     display: flex;
-    flex-direction: column; /* Ensures items are stacked vertically */
-    gap: 20px; /* Adds space between sections */
-    position: relative; /* Keeps child elements contained */
+    flex-direction: column;
+    gap: 20px;
+    position: relative; 
   }
   .feedback-section {
     overflow: auto;
   }
   .image-section1 {
-    width: 60%; /* Adjust width */
-    max-width: 500px; /* Ensures image doesn’t get too large */
-    display: block; /* Centers image */
-    margin: auto; /* Adds spacing around image */
-    border-radius: 10px; /* Adds rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 60%;
+    max-width: 500px;
+    display: block;
+    margin: auto; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
   }
   
   .image-section2 {
-    width: 60%; /* Full width */
-    max-width: 600px; /* Adjust for larger images */
-    display: block; /* Centers image */
-    margin: auto; /* Adds more spacing for visual clarity */
-    border-radius: 15px; /* More rounded corners */
-    border: 2px solid #ddd; /* Light border */
-    padding: 5px; /* Small padding */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+    width: 60%;
+    max-width: 600px;
+    display: block;
+    margin: auto; 
+    border-radius: 15px; 
+    border: 2px solid #ddd;
+    padding: 5px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); 
   }
   
   .restart-button {
@@ -58,8 +58,8 @@
   }
   
   .restart-button:hover {
-    background-color: #0056b3;  /* Darker blue on hover */
-    transform: scale(1.05);  /* Slightly enlarge the button */
+    background-color: #0056b3;  
+    transform: scale(1.05); 
   }
   
   
