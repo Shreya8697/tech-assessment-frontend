@@ -1,0 +1,312 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Adjust as needed */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .score {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  
+ /* Start Button Styling */
+.start-button {
+  display: inline-block;
+  margin: 48px 0 20px 20px; /* Moves it to the left with 20px space */
+
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease; 
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
+.start-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Submit Button Styling */
+.submit-button {
+  display: inline-block; /* Changed from block to inline-block */
+  margin-left: 20px; /* Adjust spacing between buttons */
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+  
+  /* Container for layout positioning */
+  .container {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+     /* margin-top: 4px;Space below the buttons */
+    width: 50%;  /* Full width of the window */
+  }
+  
+  .reading-section {
+    width: 44%; 
+    
+    height: 70vh; 
+    
+    padding: 20px 15px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    position: absolute;
+    left: 20px; 
+    
+    /*top: 100px;  Adjusted based on header height */
+  }
+  
+  
+  /* Tabs Container */
+  .tabs-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Tab Buttons */
+  .tab-button {
+    flex: 1;
+    padding: 8px 6px; /* Reduced padding */
+    font-size: 14px; /* Slightly smaller font size */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Slightly smaller border radius */
+    transition: background 0.3s ease;
+  }
+  
+  
+  .active-tab {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .inactive-tab {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .tab-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Reading Content */
+  .reading-content {
+    padding: 15px 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  
+  /* MCQ Section - Positioned on the right */
+  .mcq-section {
+    width: 48%; /* Slightly reduced width for better spacing */
+    height: 70vh; /* Increased height for better visibility */
+    padding: 20px 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly increased shadow for better contrast */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    position: absolute;
+    right: 20px; /* Added small spacing from the right */
+    /*top: 100px;  Adjusted based on header height */
+  }
+  
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Individual Question Styling */
+  .mcq-question {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  /* Options Styling */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .option-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .radio-input {
+    transform: scale(1.2);
+  }
+  
+  
+  .feedback-container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 15px 20px;
+    background-color: #eef2ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space from sections above */
+    position: relative; /* Ensure it remains in the flow */
+    left: 0;
+    text-align: center;
+    overflow-y: auto; /* Prevents excessive text overflow */
+  }
+  
+  
+  
+  
+  /* Heading Styling */
+  .feedback-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Feedback List */
+  .feedback-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual Feedback Item */
+  .feedback-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  /* Correct Answer Styling */
+  .correct {
+    color: #2e7d32; /* Green text */
+    background-color: #e8f5e9; /* Light green background */
+  }
+  
+  /* Incorrect Answer Styling */
+  .incorrect {
+    color: #d32f2f; /* Red text */
+    background-color: #ffebee; /* Light red background */
+  }
+  
+  /* Feedback Icon */
+  .feedback-icon {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .reading-section, .mcq-section {
+    width: 90%;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .fixed-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tabs-container {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .tab-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .start-button, .submit-button {
+    width: 50%;
+    margin: 10px 10px;
+  }
+
+  .feedback-container {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
