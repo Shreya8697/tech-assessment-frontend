@@ -35,7 +35,7 @@
  /* Start Button Styling */
 .start-button {
   display: inline-block;
-  margin: 48px 0 20px 20px; /* Moves it to the left with 20px space */
+  margin: 48px 0 20px 20px;
 
   padding: 12px 20px;
   font-size: 18px;
@@ -59,8 +59,8 @@
 
 /* Submit Button Styling */
 .submit-button {
-  display: inline-block; /* Changed from block to inline-block */
-  margin-left: 20px; /* Adjust spacing between buttons */
+  display: inline-block;
+  margin-left: 20px;
   padding: 12px 20px;
   font-size: 18px;
   font-weight: bold;
@@ -85,9 +85,8 @@
   /* Container for layout positioning */
   .container {
     display: flex;
-    justify-content: flex-start; /* Align to the left */
-     /* margin-top: 4px;Space below the buttons */
-    width: 50%;  /* Full width of the window */
+    justify-content: flex-start; 
+    width: 50%;  
   }
   
   .reading-section {
@@ -101,9 +100,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
     position: absolute;
-    left: 20px; 
-    
-    /*top: 100px;  Adjusted based on header height */
+    left: 20px; 
   }
   
   
@@ -117,12 +114,12 @@
   /* Tab Buttons */
   .tab-button {
     flex: 1;
-    padding: 8px 6px; /* Reduced padding */
-    font-size: 14px; /* Slightly smaller font size */
+    padding: 8px 6px; 
+    font-size: 100;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    border-radius: 4px; /* Slightly smaller border radius */
+    border-radius: 4px; 
     transition: background 0.3s ease;
   }
   
