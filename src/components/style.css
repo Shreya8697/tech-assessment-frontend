@@ -149,18 +149,17 @@
   }
   
   
-  /* MCQ Section - Positioned on the right */
+  /* MCQ Section */
   .mcq-section {
-    width: 48%; /* Slightly reduced width for better spacing */
-    height: 70vh; /* Increased height for better visibility */
+    width: 48%; 
+    height: 70vh; 
     padding: 20px 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly increased shadow for better contrast */
-    overflow-y: auto; /* Allows scrolling if content overflows */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
     position: absolute;
-    right: 20px; /* Added small spacing from the right */
-    /*top: 100px;  Adjusted based on header height */
+    right: 20px; 
   }
   
   
@@ -208,11 +207,11 @@
     background-color: #eef2ff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Space from sections above */
-    position: relative; /* Ensure it remains in the flow */
+    margin-top: 20px; 
+    position: relative; 
     left: 0;
     text-align: center;
-    overflow-y: auto; /* Prevents excessive text overflow */
+    overflow-y: auto; 
   }
   
   
@@ -246,14 +245,14 @@
   
   /* Correct Answer Styling */
   .correct {
-    color: #2e7d32; /* Green text */
-    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; 
+    background-color: #e8f5e9; 
   }
   
   /* Incorrect Answer Styling */
   .incorrect {
-    color: #d32f2f; /* Red text */
-    background-color: #ffebee; /* Light red background */
+    color: #d32f2f; 
+    background-color: #ffebee; 
   }
   
   /* Feedback Icon */
