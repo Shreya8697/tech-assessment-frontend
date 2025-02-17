@@ -1,3 +1,5 @@
+//make MCQ section in table formate
+
 import React from "react";
 import './style.css';
 
