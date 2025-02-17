@@ -1,3 +1,5 @@
+
+//thats header file
 import React from "react";
 import Timer from "./Timer";
 import './style.css';
