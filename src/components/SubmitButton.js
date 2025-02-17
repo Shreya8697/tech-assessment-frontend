@@ -1,3 +1,5 @@
+//for submitting the answer
+
 import React from "react";
 
 const SubmitButton = ({ isStarted, isSubmitted, handleSubmit, isSubmitting }) => {
